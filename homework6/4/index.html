@@ -1,0 +1,73 @@
+<!doctype html>
+
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>homework</title>
+</head>
+<body>
+	<form  id="calculator">
+		<table>
+		<tr>
+		<td>
+			<input type="text" id="display" size="16" >
+		</td>
+		</tr>
+		<tr>
+		<td class="buttons">
+			<input type="button" id="M+" value="M+">
+			<input type="button" id="MR" value="MR" >
+			<input type="button" id="MC" value="MC">
+			<br>
+			<br>
+			<input type="button" id="7" value="7">
+			<input type="button" id="8" value="8">
+			<input type="button" id="9" value="9">
+			<input type="button" id="C" value="C">
+			<br>
+			<input type="button" id="4" value="4">
+			<input type="button" id="5" value="5">
+			<input type="button" id="6" value="6">
+			<input type="button" id="multiplication" value="*">		
+			<br>
+			<input type="button" id="1" value="1">
+			<input type="button" id="2" value="2" >
+			<input type="button" id="3" value="3">
+			<input type="button" id="subtraction" value="-">
+			<br>		
+			<input type="button" id="0" value="0">
+			<input type="button" id="equally" value="=">
+			<input type="button" id="addition" value="+" >	
+			<input type="button" id="division"  value="/">
+		</td>
+		</tr>
+		</table>
+	</form>	
+	<script src="script.js"></script>
+</body>
+<style>
+	#calculator * {
+		font-size: 20px;
+	}
+	#calculator table {
+		border: solid 3px coral; 
+		border-spacing: 3px; 
+		background-color: #FFDAB9; 
+	}
+	#calculator table td {
+		border-spacing: 1px;
+	 }
+	#display {
+		border: solid 2px coral; 
+		width: 215px; 
+		height: 30px; 
+		text-align: right;
+	}
+	input[type= button] {
+		width: 50px; 
+		height: 40px; 
+		background-color:#FFFAF0; 
+		border: solid 1px lightsalmon;
+	}
+</style>
+</html>
