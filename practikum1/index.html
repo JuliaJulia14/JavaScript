@@ -1,0 +1,81 @@
+<!doctype html>
+
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8" />
+	<title>Практикум 1</title>
+</head>
+<body>
+	<form>
+		<!--<label>Выберите цветы: 
+			<select id="flow">
+			</select>
+		</label>-->
+		<h1>Выберите цветы:</h1>
+		<div class="image">
+			<span id="asd">
+				<label><input type="radio" name="radio0" value="0" style="display: none;"><img src ="0.jpg"></label>
+				<label><input type="radio" name="radio0" value="0" style="display: none;"><img src ="1.jpg"></label>
+				<label><input type="radio" name="radio0" value="0" style="display: none;"><img src ="2.jpg"></label>
+				<label><input type="radio" name="radio0" value="0" style="display: none;"><img src ="3.jpg"></label>
+				<label><input type="radio" name="radio0" value="0" style="display: none;"><img src ="4.jpg"></label>
+				<label><input type="radio" name="radio0" value="0" style="display: none;"><img src ="5.jpg"></label>
+				<label><input type="radio" name="radio0" value="0" style="display: none;"><img src ="6.jpg"></label>
+				<label><input type="radio" name="radio0" value="0" style="display: none;"><img src ="7.jpg"></label>
+				<label><input type="radio" name="radio0" value="0" style="display: none;"><img src ="8.jpg"></label>
+				<label><input type="radio" name="radio0" value="0" style="display: none;"><img src ="9.jpg"></label>
+			</span>
+		</div>
+		
+		<div class="main">
+			<div style="margin-left:15px">
+				<label>
+					<font size="5px" >Введите количество цветов:</font>
+					<input class="inp" type="text" id="numb" value="1">
+				</label>
+			</div>
+			<font size="5px" style="margin-left:15px">Укажите вид упаковки:</font>
+			<div class="boxes">
+				<label>
+					<input type="radio" name="radio1" value="0" checked id="1">Нет упаковки
+				</label><br>
+				<label>
+					<input type="radio" name="radio1" value="2">Бумажная упаковка
+				</label><br>
+				<label>
+					<input type="radio" name="radio1" value="3">Фольга
+				</label>		
+			</div>
+			<font size="5px" style="margin-left:15px">Выберите вид доставки:</font>
+			<div class="styled-select">
+				<select id="qqqqq" class="turnintodropdown">
+					<option value="0">Самовывоз</option>
+					<option value="5">Курьером</option>
+					<option value="10">Курьером к получателю</option>
+				</select>
+			</div>
+			<font size="5px" style="margin-left:15px">Cкидки:</font>
+			<div class="boxes">
+				<label>
+					<input type="radio" name="radio2" value="0" id="box-1" checked>У меня нет дисконтной карты
+				</label><br>
+				<label>
+					<input type="radio" name="radio2" value="5">У меня есть дисконтная карта со скидкой 5%
+				</label><br>
+				<label>
+					<input type="radio" name="radio2" value="10">У меня есть дисконтная карта со скидкой 10%
+				</label>
+			</div>
+			<div>
+				<label class="m1">Итого: 
+				<input class="inp" type="text" id="Summa"> рублей
+			</label>
+			</div>
+		</div>
+	</form>
+<script src="script.js"></script>
+</body>
+
+</html>
+

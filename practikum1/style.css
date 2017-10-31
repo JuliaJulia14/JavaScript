@@ -1,0 +1,106 @@
+body{
+    background: #c7b39b url(ima3.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+ 
+}
+img{
+    cursor: pointer;
+    padding: 3px;
+    background: #F5F5DC;
+    margin: 5px;
+}
+h1{
+    font-weight: normal;
+    font-family: 'Merriweather', serif;
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+
+    line-height: 1;
+    color: #043300;
+    font-size: 40px;
+    padding: .4em 1em .30em;
+}
+h1:before,
+h1:after {
+  content: ""; 
+  position: absolute;
+  width: 60%;
+  height: .1em;
+  background: #294200; 
+}
+h1:before {
+  left: 0;
+  top: 0;
+}
+h1:after {
+  right: 0;
+  bottom: 0;
+}
+
+.image{
+    margin: 15px;
+    width: 70%;
+}
+.metka,
+.m1{
+    -weight: normal;
+    font-family: 'Merriweather', serif;
+    margin: 10px;
+    color: #000000;
+    font-size: 30px;
+    padding: 5px;
+}
+.inp {
+    padding: 3px;
+    font-size: 15px;
+    border: 3px solid rgba(92, 27, 27, 0.5);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset, 0 2px 10px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset, 0 2px 10px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset, 0 2px 10px rgba(0, 0, 0, 0.25);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(241, 188, 188, 0.5);
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    color: #000000;
+    width:100px;
+    margin: 5px;
+  }
+.true{
+    border: 5px solid #D3D3D3;
+}
+input[type="radio"] {
+	cursor: pointer;
+}
+
+
+.boxes {
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid #BC8F8F;
+    width:30%;
+    border-radius: 30px
+  }
+ 
+  .turnintodropdown {
+    background: transparent;
+    width: 285px;
+    padding-left: 20px;
+    font-size: 16px;
+    border: 2px solid #BC8F8F;
+    height: 34px;
+    margin: 15px;
+    cursor: pointer;
+    border-radius: 30px
+    }
+
+.main{
+    border: 7px double #BC8F8F;
+    width: 62.5%;
+    margin: 20px;
+     border-radius: 20px
+}
