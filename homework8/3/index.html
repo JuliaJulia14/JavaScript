@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>homework</title>
+</head>
+<body>
+	<ul id="list">
+		<li>Уровень 1
+			<ul class="invisible">
+				<li >Уровень 2
+					<ul class="invisible">
+						<li>Уровень 3</li>
+						<li>Уровень 3</li>
+					</ul>
+				</li>
+				<li >Уровень 2
+					<ul class="invisible">
+						<li>Уровень 3</li>
+						<li>Уровень 3</li>
+					</ul>
+				</li>	
+			</ul>
+		</li>
+		<li>Уровень 1
+			<ul class="invisible">
+				<li>Уровень 2
+					<ul class="invisible">
+						<li>Уровень 3</li>
+						<li>Уровень 3</li>
+					</ul>
+				</li>
+				<li>Уровень 2
+					<ul class="invisible">
+						<li>Уровень 3</li>
+						<li>Уровень 3</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>Уровень 1
+			<ul class="invisible">
+				<li>Уровень 2
+					<ul class="invisible">
+						<li>Уровень 3</li>
+						<li>Уровень 3</li>
+					</ul>
+				</li>
+				<li>Уровень 2
+					<ul class="invisible">
+						<li>Уровень 3</li>
+						<li>Уровень 3</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+	<script src="script.js"></script>
+</body>
+<style type="text/css">
+	#list .visible{
+			display: block;
+		}
+	#list .invisible{
+			display: none;
+		}
+	#list ul, #list{
+		list-style: none;
+	}
+	#list{
+		cursor: pointer;
+	}
+ 
+
+</style>
+</html>
